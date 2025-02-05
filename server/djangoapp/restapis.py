@@ -29,7 +29,7 @@ def get_request(endpoint, **kwargs):
     except Exception as err:
         # If any error occurs
         print(f"Unexpected {err=}, {type(err)=}")
-        print("Network exception occurred") 
+        print("Network exception occurred")
 
 
 # Add code for retrieving sentiments
