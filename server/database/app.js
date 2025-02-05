@@ -30,7 +30,7 @@ try {
   
 } catch (error) {
   res.status(500).json({ error: 'Error fetching documents' });
-};
+}
 
 
 // Express route to home
